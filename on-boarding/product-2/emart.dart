@@ -24,12 +24,24 @@ class ProductManagement{
     if (products.isEmpty) {
       print('No products found.');
       return;
-    }
-    print('Name | Description | Price');
+      }
+
+    // Column headers with padding
+    print(
+      '\n| No. | Name             | Description                  | Price     |');
+    print(
+      '|-----|------------------|------------------------------|-----------|');
+
     for (int i = 0; i < products.length; i++) {
-      print('${i + 1}. ${products[i].name} | ${products[i].description} | \$${products[i].price}');
+      Product p = products[i];
+      print(
+        '| ${i + 1}.  '
+        '| ${p.name.padRight(16)}'
+        '| ${p.description.padRight(28)}'
+        '| \$${p.price.toStringAsFixed(2).padRight(9)}|'
+      );
     }
-  }
+}
   void viewSingleProduct() {
     print('Enter product number to view: ');
     int index = int.parse(stdin.readLineSync()!) - 1;
