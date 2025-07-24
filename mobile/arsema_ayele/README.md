@@ -4,8 +4,8 @@
 Create a Flutter user interface that replicates the design of a provided picture (see Figma link below). The UI was built using custom images and creative assets.
 - **Design Replication:** The UI closely follows the provided reference, matching colors, layout, typography, and design elements.
 - **Widgets Used:** The app uses core Flutter widgets such as `Container`, `Column`, `Row`, `Image`, `Text`, `Button`, and more to achieve the design.
-- **Screenshots:** UI screenshots are included in the `assets/screenshots/` folder.
-- **Figma Link:** [Link]
+- **Screenshots:** UI screenshots are included in the `assets/screenshots` folder.
+  `/https://github.com/Arsema6/2024-project-phase-mobile-tasks/tree/main/mobile/arsema_ayele/assets/screenshots`
 ## Task 7: Implementing Navigation and Routing in an Ecommerce Mobile App
 This project is a simple e-commerce mobile app built with Flutter. It allows users to create, view, update, and delete products, with seamless navigation and routing.
 ### Features
